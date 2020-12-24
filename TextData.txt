@@ -1,0 +1,45 @@
+Director
+	first_name d_name
+	middle_name_init_letter d
+	family_name d_surname
+	department 10
+	hiring_date 01.02.1999
+	level 15
+	years_of_service 20
+	Manager
+		first_name m_name
+		family_name m_surname
+		middle_name_init_letter m
+		department 5
+		hiring_date 01.02.2000
+		level 10
+		Employee
+			first_name Fedya
+			department 1234
+		---------
+	---------
+	Manager
+		first_name m_name1
+		family_name m_surname1
+		middle_name_init_letter m
+		department 5
+		hiring_date 01.02.2000
+		level 10
+		Employee
+			first_name Fedya1
+			department 1234
+		---------
+	---------
+---------
+Temporary
+	first_name tmp_name
+	family_name tmp_surname
+	begin 03.03.2000
+	end 03.03.2002
+---------
+Secretary
+---------
+Tsec
+---------
+Consultant
+---------
